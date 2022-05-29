@@ -1,14 +1,8 @@
 import 'package:flutter/material.dart';
 
-// Difference Between Scaffold and Stateless widget
-// Scaffold didnt allow us to change on run time while stateless does..
+// Single Child
 
 void main() {
-  // runApp(MaterialApp(
-  //     home: Scaffold(
-  //   backgroundColor: Colors.cyan,
-  // )));
-
   runApp(MyApp());
 }
 

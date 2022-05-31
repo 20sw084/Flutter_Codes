@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
             const CircleAvatar(
               backgroundImage: NetworkImage(
                   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkeLIWKzTy2_HfM2LkJT6f8Kd1SirI-Y_A_Q&usqp=CAU'),
+              radius: 100.0,
             ),
             Text(
               "Dean Carney",
